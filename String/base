@@ -1,0 +1,15 @@
+容器
+
+string：
+    是什么：
+        专门的字符串操作类
+        CString、QString
+    跟char *的区别
+        char * 是指向字符数组首地址的指针，
+        然后系统提供了  string.h 这个头文件声明了很多字符串操作函数  strlen、strcat、strcmp、strcpy...
+        <string.h>
+
+        string则是一个类，将以上内容封装，是字符串操作更灵活
+        使用时不需要考虑内存的释放与分配，越界等问题
+        一定要打开std
+        <string>
